@@ -10,6 +10,6 @@ print("App is running !\n")
 while True:
     if strftime('%H : %M : %S', localtime()) == t:
         print(f"Wake up body ! it's {t} !")
-        system('mpg123 ~/morning/Music/*.mp3')
+        system('mpg123 ~/Gn/Music/*.mp3')
     else:
         pass

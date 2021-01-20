@@ -2,5 +2,5 @@
 
 void main() {
 	printf("Hello , Welcome to Gn app !\n\n");
-	system("python3 ~/morning/main.py");
+	system("python3 ~/Gn/main.py");
 }
