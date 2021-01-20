@@ -7,27 +7,43 @@ Gn ( **G**ood **n**igh ) is a simple app that you can `clone` it into `/home/use
 ### Ok lets start
 
 - Clone into ~
-```commandline
+```shell
 cd ~
 git clone https://github.com/BlackIQ/Gn
 cd Gn
 ```
 
 - Compile main.c
-```commandline
+```shell
 gcc main.c
 ```
 
 - Rename a.out to Gn
-```commandline
+```shell
 mv a.out Gn
 ```
 
 - Copy Gn to /bin
-```commandline
+```shell
 sudo cp -r Gn /bin
 ```
 - Run Gn command
-```commandline
+```shell
 Gn
+```
+
+<hr>
+
+### There are some stuff you can change
+
+- In C file you can change where you put your Python File (Line 5) :
+
+```dockerfile
+system("python3 ~/Gn/main.py");
+```
+
+- In python file you can change where are your music (Line 13) :
+
+```python
+system('mpg123 ~/Gn/Music/*.mp3')
 ```
