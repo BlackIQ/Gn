@@ -6,6 +6,11 @@ Gn ( **G**ood **n**igh ) is a simple app that you can `clone` it into `/home/use
 
 ### Ok lets start
 
+- Install Notif-Py
+```shell
+pip3 install notify-py
+```
+
 - Clone into ~
 ```shell
 cd ~
