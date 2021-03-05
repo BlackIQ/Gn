@@ -2,14 +2,20 @@
 
 from time import strftime, localtime
 from os import system
+from notifypy import Notify
 
 t = input("Time : ")
+
+notification = Notify()
 
 print("App is running !\n")
 
 while True:
     if strftime('%H : %M : %S', localtime()) == t:
         print(f"Wake up body ! it's {t} !")
+        notification.title = "It is time !"
+		notification.message = f"Wake up body ! it's {t} !"
+		notification.send()
         system('mpg123 ~/Gn/Music/*.mp3')
     else:
         pass
