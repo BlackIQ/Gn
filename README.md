@@ -7,33 +7,33 @@ Gn ( **G**ood **n**igh ) is a simple app that you can `clone` it into `/home/use
 ### Ok lets start
 
 - Install Notif-Py
-```shell
+```bash
 pip3 install notify-py
 ```
 
 - Clone into ~
-```shell
+```bash
 cd ~
 git clone https://github.com/BlackIQ/Gn
 cd Gn
 ```
 
 - Compile main.c
-```shell
+```bash
 gcc main.c
 ```
 
 - Rename a.out to Gn
-```shell
+```bash
 mv a.out Gn
 ```
 
 - Copy Gn to /bin
-```shell
+```bash
 sudo cp -r Gn /bin
 ```
 - Run Gn command
-```shell
+```bash
 Gn
 ```
 
