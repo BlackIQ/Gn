@@ -13,3 +13,4 @@ while True:
         system('mpg123 ~/Gn/Music/*.mp3')
     else:
         pass
+    sleep(1);
